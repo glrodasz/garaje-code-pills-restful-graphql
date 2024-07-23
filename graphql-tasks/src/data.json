@@ -1,0 +1,44 @@
+{
+	"tasks": [
+	  {
+		"description": "This is my first task",
+		"priority": 1,
+		"status": "completed",
+		"id": 1,
+		"focusSessionId": 2
+	  },
+	  {
+		"status": "completed",
+		"priority": 2,
+		"description": "Hello",
+		"createdAt": 1716644806334,
+		"id": 2,
+		"focusSessionId": 1
+	  },
+	  {
+		"status": "completed",
+		"priority": 0,
+		"description": "Mundo",
+		"createdAt": 1716644809377,
+		"id": 3,
+		"focusSessionId": 2
+	  },
+	  {
+		"status": "completed",
+		"priority": 3,
+		"description": "Hello",
+		"createdAt": 1716644810980,
+		"id": 4,
+		"focusSessionId": 1
+	  },
+	  {
+		"status": "in-progress",
+		"priority": 0,
+		"description": "Una nueva tarea",
+		"createdAt": 1716666922706,
+		"id": 5,
+		"focusSessionId": 2
+	  }
+	]
+  }
+  

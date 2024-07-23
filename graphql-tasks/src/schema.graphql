@@ -1,0 +1,22 @@
+type Task {
+  id: Int!
+  description: String!
+  priority: Int!
+  status: String!
+  focusSessionId: Int!
+  createdAt: Int
+}
+
+type Query {
+  tasks: [Task!]!
+  task(id: Int!): Task
+}
+
+type Mutation {
+  createTask(
+    description: String!
+    priority: Int!
+    status: String!
+    focusSessionId: Int!
+  ): Task!
+}

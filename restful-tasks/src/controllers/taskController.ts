@@ -1,6 +1,6 @@
-import { Request, Response } from 'express';
-import { Task } from '../entities/Task';
-import { TaskRepository } from '../repositories/taskRepository';
+import { Request, Response } from "express";
+import { Task } from "../entities/Task";
+import { TaskRepository } from "../repositories/taskRepository";
 
 const taskRepository = new TaskRepository();
 
@@ -14,7 +14,7 @@ export const getTaskById = (req: Request, res: Response): Response<Task> => {
   if (task) {
     return res.json(task);
   } else {
-    return res.status(404).send('Task not found');
+    return res.status(404).send("Task not found");
   }
 };
 
