@@ -1,22 +1,11 @@
 type Task {
-  id: Int!
-  description: String!
-  priority: Int!
-  status: String!
-  focusSessionId: Int!
-  createdAt: Int
+  // TODO
 }
 
 type Query {
-  tasks: [Task!]!
-  task(id: Int!): Task
+  // TODO
 }
 
 type Mutation {
-  createTask(
-    description: String!
-    priority: Int!
-    status: String!
-    focusSessionId: Int!
-  ): Task!
+  // TODO
 }
